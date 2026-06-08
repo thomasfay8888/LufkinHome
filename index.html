@@ -582,28 +582,28 @@
   </div>
 
   <!-- LEAD FORM -->
-  <div class="form-card" id="estimate">
+<form class="form-card" id="estimate" action="https://formspree.io/f/mbdbvrwq" method="POST">
     <h3>Get Your Free Estimate</h3>
     <p>We'll call you back within 1 hour during business hours</p>
     <div class="form-group">
       <label>Your Name*</label>
-      <input type="text" placeholder="John Smith" required>
+      <input type="text" name="name" placeholder="John Smith" required>
     </div>
     <div class="form-group">
       <label>Phone Number*</label>
-      <input type="tel" placeholder="(310) 854-9282" required>
+      <input type="tel" name="phone" placeholder="(310) 854-9282" required>
     </div>
     <div class="form-group">
       <label>City / Town</label>
-      <input type="text" placeholder="Lufkin, TX">
+      <input type="text" name="city" placeholder="Lufkin, TX">
     </div>
     <div class="form-group">
       <label>What's going on?</label>
-      <textarea placeholder="Describe the problem — uneven floors, doors sticking, cracks, etc."></textarea>
+      <textarea name="message" placeholder="Describe the problem — uneven floors, doors sticking, cracks, etc."></textarea>
     </div>
-    <button class="form-submit" onclick="handleFormSubmit()">Request My Free Estimate →</button>
+    <button type="submit" class="form-submit">Request My Free Estimate →</button>
     <p class="form-note">🔒 No spam. Your info is never shared. We'll call within 1 hour.</p>
-  </div>
+  </form>
 </section>
 
 <!-- TRUST BAR -->
